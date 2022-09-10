@@ -1,0 +1,26 @@
+/* CSS Syntax
+
+selector{
+    property: value;
+    property2:value2;
+}
+
+*/
+
+:root{
+    --header-color: rgb(130, 5,7);
+}
+h1{
+    color: var(--header-color);
+}
+h3{
+    color:blue;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+h3::first-letter{
+    color:var(--header-color);
+}
