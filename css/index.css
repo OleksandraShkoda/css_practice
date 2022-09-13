@@ -1,4 +1,6 @@
 @import url(common.css);
-@import url(index-header.css);
-@import url(index-product.css);
-@import url(index-footer.css);
+@import url(burger-menu.css);
+@import url(controls.css);
+@import url(header.css);
+@import url(product.css);
+@import url(footer.css);
