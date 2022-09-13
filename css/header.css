@@ -1,0 +1,14 @@
+.header{
+    background-color: var(--bg-color);
+    padding:5px;
+}
+.header-nav__logo{
+    font-size: 3.5rem;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.header-nav__menu-item {
+    display: block;
+}

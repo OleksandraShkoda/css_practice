@@ -1,26 +1,23 @@
-/* CSS Syntax
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Lobster&display=swap');
 
-selector{
-    property: value;
-    property2:value2;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-*/
-
-:root{
-    --header-color: rgb(130, 5,7);
-}
-h1{
-    color: var(--header-color);
-}
-h3{
-    color:blue;
+:root {
+    --text-color: black;
+    --bg-color:rgb(50, 206, 211);
+    scroll-behavior: smooth;
+    font-family: 'DotGothic16', sans-serif;
 }
 
-h3:hover{
-    text-decoration: underline;
+h1 {
+    color: var(--text-color);
 }
 
-h3::first-letter{
-    color:var(--header-color);
+img{
+    display:block;
+    width:100%;
 }
